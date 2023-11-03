@@ -5,7 +5,9 @@
 */
 
 :root.theme-dark {
-  /* Дублируем переменные для тёмной темы */
+  --primary-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #000028;
 }
 
 .page.theme_dark {

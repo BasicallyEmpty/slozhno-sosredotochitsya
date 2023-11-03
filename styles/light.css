@@ -5,7 +5,9 @@
 */
 
 :root.theme-light {
-  /* Переменные светлой темы */    
+  --primary-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #000028;  
 }
 
 .page.theme_light {
@@ -18,7 +20,9 @@
 
 @media (prefers-color-scheme: light) {
 :root {
-      /* Дублируем переменные светлой темы */    
+  --primary-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #000028;  
   }
 }
 
