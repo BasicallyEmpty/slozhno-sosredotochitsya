@@ -5,27 +5,24 @@
 */
 
 :root.theme-light {
-  --primary-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --title-color: #000028;  
+  --primary-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: #353430;  
 }
 
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 @media (prefers-color-scheme: light) {
-:root {
-  --primary-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --title-color: #000028;  
+  :root {
+    --primary-color: #353430;
+    --accent-color: #FF8DCB;
+    --title-color: #353430;  
+  }
+
+  .page.theme_auto {
+    background-image: url(../images/cover-image-light.png);
   }
 }
-
-/* Остальные стили */
-
 
