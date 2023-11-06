@@ -1,6 +1,8 @@
 :root {
   --primary-color: #F1B2CE;
   --accent-color: #FF0070;
+  --heading-color: #DB00FF;
+  --heading-color-alt: #DB00FF;
   --title-color: #000028;
   --heading-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-font-size: 18px;
