@@ -4,25 +4,44 @@
   переключая тему
 */
 
-:root.theme-light {
-  --primary-color: #353430;
-  --accent-color: #FF8DCB;
-  --title-color: #353430;  
-}
-
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
+  --primary-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: #353430;
+  --background-color: #FFF1F7;
+  --heading-color: #FFC2E6;
+  --title-shadow-color: #FF8DCB;
+}
+
+@media (width >= 1024px) {
+  .page.theme_light {
+    --title-shadow-color: #FF0070;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --primary-color: #353430;
     --accent-color: #FF8DCB;
-    --title-color: #353430;  
+    --title-color: #353430; 
+    --background-color: #FFF1F7;
+    --heading-color: #FFC2E6;
+    --title-shadow-color: #FF8DCB;
   }
 
-  .page.theme_auto {
+  .page {
     background-image: url(../images/cover-image-light.png);
+  }
+
+  .header::before, .header::after, .decoration, .decoration::before, .decoration::after, footer::before, .footer::after {
+    display: none;
+  }
+
+  @media (width >= 1024px) {
+    :root {
+      --title-shadow-color: #FF0070;
+    }
   }
 }
 
