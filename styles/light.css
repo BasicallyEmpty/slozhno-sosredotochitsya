@@ -15,18 +15,15 @@
   background-image: url(../images/cover-image-light.png);
 }
 
-.header::before,
-.header::after,
+/**
 .decoration,
 .decoration::before,
-.decoration::after,
-.footer::before,
-.footer::after {
+.decoration::after {
   display: none;
-}
+} **/
 
 @media (width >= 1024px) {
-  .page.theme_light {
+  .page {
     --heading-shadow-color: #ff0070;
   }
 }
@@ -51,13 +48,9 @@
     background-image: url(../images/cover-image-light.png);
   }
 
-  .header::before,
-  .header::after,
   .decoration,
   .decoration::before,
-  .decoration::after,
-  footer::before,
-  .footer::after {
+  .decoration::after {
     display: none;
   }
 }

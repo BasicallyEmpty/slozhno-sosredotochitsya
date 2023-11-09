@@ -1,4 +1,4 @@
-:root.theme-dark {
+.page.theme-dark {
   --primary-color: #f1b2ce;
   --accent-color: #ff0070;
   --heading-color: #db00ff;
