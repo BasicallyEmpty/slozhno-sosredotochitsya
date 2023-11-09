@@ -19,6 +19,7 @@
   flex-direction: column;
   padding: 10px;
   inline-size: 100%;
+  block-size: 100vh;
 }
 
 .decorated-zone {
@@ -128,7 +129,6 @@
 
 .header__description-container {
   align-self: flex-end;
-  margin-block-end: 56px;
   font-weight: 700;
   inline-size: min(100%, 364px);
 }
@@ -275,7 +275,6 @@
   }
 
   .header__description-container {
-    margin-block-end: 164px;
     inline-size: min(calc((100%) / 2), 491px);
   }
 
@@ -363,10 +362,6 @@
 
   .header__title {
     margin: 273px 0 114px;
-  }
-
-  .header__description-container {
-    margin-block-end: 114px;
   }
 
   .content__points_mod {
