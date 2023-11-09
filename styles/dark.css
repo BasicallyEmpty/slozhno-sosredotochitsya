@@ -2,10 +2,10 @@
   --primary-color: #f1b2ce;
   --accent-color: #ff0070;
   --heading-color: #db00ff;
+  --heading-shadow-color: #ff0070;
   --title-color: #ff0070;
   --title-color-transparent: rgba(255, 0, 112, 0.4);
   --title-color-decor: #000028;
-  --heading-shadow-color: #ff0070;
   --background-color: #000028;
   background-image: url(../images/cover-image-dark.png);
 }
