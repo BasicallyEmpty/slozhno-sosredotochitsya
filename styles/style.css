@@ -227,7 +227,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  min-block-size: 667px;
+  block-size: 100vh;
 }
 
 .footer__text {
@@ -346,7 +346,6 @@
 
   .footer {
     padding: 20px;
-    min-block-size: 1024px;
   }
 }
 
@@ -366,9 +365,5 @@
 
   .content__points_mod {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer {
-    min-block-size: 768px;
   }
 }
