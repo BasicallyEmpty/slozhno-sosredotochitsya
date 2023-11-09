@@ -1,8 +1,8 @@
 :root.theme-dark {
-  --primary-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --heading-color: #DB00FF;
-  --heading-color-alt: #DB00FF;
+  --primary-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --heading-color: #db00ff;
+  --heading-color-alt: #db00ff;
   --title-color: #000028;
   --background-color: #000028;
 }
