@@ -101,7 +101,7 @@
 
 .header__title {
   color: var(--heading-color);
-  text-shadow: 4px 4px 0px var(--title-shadow-color);
+  text-shadow: 4px 4px 0px var(--heading-shadow-color);
   font-size: var(--heading-font-size);
   font-weight: 700;
   line-height: 82.5%;
@@ -129,7 +129,7 @@
 }
 
 .content__block-title {
-  color: var(--accent-color);
+  color: var(--title-color);
   font-size: var(--text-font-size);
   margin-block-end: 20px;
 }
@@ -196,8 +196,8 @@
 }
 
 .footer__text {
-  color: var(--heading-color-alt);
-  text-shadow: 2px 2px 0px var(--accent-color);
+  color: var(--heading-color);
+  text-shadow: 2px 2px 0px var(--heading-shadow-color);
   font-size: var(--heading-font-size);
   font-weight: 700;
   line-height: 82.5%;
@@ -228,7 +228,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--title-color);
+  color: var(--title-color-decor);
 }
 
 @media (width >= 768px) {

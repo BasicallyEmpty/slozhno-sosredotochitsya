@@ -11,12 +11,12 @@
   --title-color: #353430;
   --background-color: #FFF1F7;
   --heading-color: #FFC2E6;
-  --title-shadow-color: #FF8DCB;
+  --heading-shadow-color: #FF8DCB;
 }
 
 @media (width >= 1024px) {
   .page.theme_light {
-    --title-shadow-color: #FF0070;
+    --heading-shadow-color: #FF0070;
   }
 }
 
@@ -24,10 +24,10 @@
   :root {
     --primary-color: #353430;
     --accent-color: #FF8DCB;
-    --title-color: #353430; 
+    --title-color: #353430;
     --background-color: #FFF1F7;
     --heading-color: #FFC2E6;
-    --title-shadow-color: #FF8DCB;
+    --heading-shadow-color: #FF8DCB;
   }
 
   .page {
@@ -40,7 +40,7 @@
 
   @media (width >= 1024px) {
     :root {
-      --title-shadow-color: #FF0070;
+      --heading-shadow-color: #FF0070;
     }
   }
 }
