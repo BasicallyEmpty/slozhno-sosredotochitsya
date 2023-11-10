@@ -96,9 +96,9 @@
   line-height: 100%;
   text-transform: lowercase;
   background-color: transparent;
+  cursor: pointer;
   min-inline-size: 70px;
   block-size: 26px;
-  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -129,8 +129,8 @@
 }
 
 .header__description-container {
-  align-self: center;
   justify-self: end;
+  align-self: center;
   font-weight: 700;
   inline-size: min(100%, 364px);
 }
@@ -347,8 +347,8 @@
 
 @media (width >= 1024px) {
   .header__theme-menu {
-    align-self: start;
     justify-self: center;
+    align-self: start;
   }
 
   .header__theme-menu-list {
