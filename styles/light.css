@@ -16,7 +16,7 @@
   background-image: url(../images/cover-image-light.png);
 }
 
-.theme_light > .decoration {
+.theme_light > .header > .decoration {
   display: none;
 }
 
@@ -51,7 +51,7 @@
     display: none;
   }
 
-  .theme_dark > .decoration {
+  .theme_dark > .header > .decoration {
     display: flex;
   }
 }

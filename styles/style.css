@@ -3,7 +3,7 @@
 .page {
   position: relative;
   color: var(--primary-color);
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), monospace;
   font-size: var(--text-font-size);
   line-height: 130%;
   background-color: var(--background-color);
@@ -20,6 +20,7 @@
   padding: 10px;
   inline-size: 100%;
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone {
@@ -90,13 +91,14 @@
   outline: none;
   color: var(--title-color);
   font-weight: 400;
-  font-size: var(--text-font-size);
+  font-size: inherit;
   font-style: normal;
   line-height: 100%;
   text-transform: lowercase;
   background-color: transparent;
   min-inline-size: 70px;
   block-size: 26px;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -166,7 +168,7 @@
 .content__block-title {
   margin-block-end: 20px;
   color: var(--title-color);
-  font-size: var(--text-font-size);
+  font-size: inherit;
 }
 
 .content__points {
@@ -175,23 +177,21 @@
 }
 
 .content__point-title {
-  margin-block-end: 10px;
   font-weight: 700;
+  font-size: inherit;
 }
 
-.letter-spacing-narrow {
-  letter-spacing: -2px;
+.content__point-title_mod {
+  margin-block-end: 20px;
+}
+
+.content__text {
+  margin-block-start: 10px;
 }
 
 .content__point-subtitle {
-  margin-block-end: 10px;
   font-weight: 400;
-  font-size: var(--text-font-size);
-}
-
-.content__point-description {
-  margin-block-end: 20px;
-  font-weight: 700;
+  font-size: inherit;
 }
 
 .gallery {
@@ -204,7 +204,7 @@
 
 .gallery__title {
   color: var(--accent-color);
-  font-size: var(--text-font-size);
+  font-size: inherit;
 }
 
 .image-list {
@@ -228,6 +228,7 @@
   align-items: center;
   padding: 10px;
   block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__text {
